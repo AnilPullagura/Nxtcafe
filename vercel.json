@@ -1,13 +1,9 @@
 {
   "version": 2,
-  "buildCommand": "DISABLE_ESLINT_PLUGIN=true npm run build",
+  "buildCommand": "TSC_COMPILE_ON_ERROR=true npm run build",
   "outputDirectory": "build",
   "installCommand": "npm install --legacy-peer-deps",
   "framework": "create-react-app",
-  "env": {
-    "TSC_COMPILE_ON_ERROR": "true",
-    "SKIP_PREFLIGHT_CHECK": "true"
-  },
   "rewrites": [
     {
       "source": "/(.*)",
