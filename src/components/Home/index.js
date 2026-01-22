@@ -1,5 +1,5 @@
 import {useState, useContext, useEffect} from 'react'
-import Loader from 'react-loader-spinner'
+import {Oval} from 'react-loader-spinner'
 import {IoIosCart} from 'react-icons/io'
 import CartContext from '../CartContext'
 import TabItem from '../TabItem'
@@ -74,7 +74,7 @@ const Home = () => {
 
   const renderLoadingView = () => (
     <div className="loader-view">
-      <Loader type="Oval" height={40} width={40} color="skyblue" />
+      <Oval height={40} width={40} color="skyblue" />
     </div>
   )
 
