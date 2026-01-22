@@ -1,0 +1,107 @@
+.dish-item {
+  display: flex;
+  align-items: center;
+}
+* {
+  font-family: 'Roboto';
+}
+.dish-image {
+  height: 200px;
+  width: 100%;
+  border-radius: 5px;
+}
+.image-box {
+  flex: 1;
+}
+.item {
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0px 0 4px 0px black;
+}
+.name-box {
+  flex: 3;
+}
+.calories-box {
+  flex: 1;
+}
+.cart-box {
+  background-color: green;
+  border-radius: 50px;
+  display: flex;
+  color: white;
+  width: fit-content;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.add {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  border: 0px;
+  margin-left: 10px;
+}
+
+.remove {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  border: 0px;
+  margin-right: 10px;
+}
+@media (min-width: 768px) {
+  .name {
+    color: black;
+    font-size: 18px;
+  }
+  .sar {
+    color: rgb(67, 66, 66);
+    font-weight: 700;
+  }
+  .discription {
+    color: gray;
+    font-size: 14px;
+  }
+  .not-available {
+    color: red;
+  }
+  .custom {
+    color: blue;
+    font-weight: 500;
+  }
+  .calories {
+    color: orange;
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 767px) {
+  .name {
+    color: black;
+    font-size: 16px;
+  }
+  .sar {
+    color: rgb(67, 66, 66);
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .discription {
+    color: gray;
+    font-size: 14px;
+  }
+  .not-available {
+    color: red;
+  }
+  .custom {
+    color: blue;
+    font-weight: 500;
+  }
+  .calories {
+    color: orange;
+    font-weight: 700;
+    font-size: 14px;
+  }
+}

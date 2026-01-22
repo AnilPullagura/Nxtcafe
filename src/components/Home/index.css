@@ -1,0 +1,71 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1px 0px 5px 0px black;
+}
+.cart-symbol {
+  display: flex;
+  align-items: center;
+}
+.cart {
+  position: relative;
+}
+.cart-icon {
+  height: 40px;
+  width: 40px;
+}
+.count {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: orange;
+  border-radius: 1000px;
+  padding: 3px;
+  width: 20px;
+  text-align: center;
+}
+.dish-list {
+  margin-left: -40px;
+  list-style-type: none;
+}
+
+@media (min-width: 768px) {
+  .header {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .loader-view {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  .tab-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow-x: auto;
+    margin-left: -40px;
+  }
+}
+@media (max-width: 767px) {
+  .my-order {
+    display: none;
+  }
+  .header {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .loader-view {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .tab-list {
+    display: flex;
+    overflow-x: auto;
+    margin-left: -40px;
+  }
+}

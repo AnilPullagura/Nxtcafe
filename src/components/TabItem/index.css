@@ -1,0 +1,39 @@
+@media (min-width: 768px) {
+  .tab-item {
+    list-style-type: none;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .tab-name {
+    font-family: 'Roboto';
+    font-size: 18px;
+  }
+  .active {
+    border-bottom: solid 1px gray;
+    color: orange;
+  }
+}
+.tab-name {
+  border: 0px;
+  outline: none;
+  background-color: transparent;
+}
+* {
+  box-sizing: border-box;
+}
+@media (max-width: 767px) {
+  .tab-item {
+    list-style-type: none;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .tab-name {
+    font-family: 'Roboto';
+    font-size: 16px;
+    width: 150px;
+  }
+  .active {
+    border-bottom: 2px solid gray;
+    color: orange;
+  }
+}
